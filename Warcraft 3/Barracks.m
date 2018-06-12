@@ -10,4 +10,19 @@
 
 @implementation Barracks
 
+- (instancetype)init
+{
+    _gold = 1000;
+    _food = 80;
+    return self;
+}
+
+- (Footman *)trainFootman {
+    Footman *footman = [[Footman alloc] init];
+    self.gold = self.gold - 135;
+    self.food = self.food - 2;
+    return footman;
+}
+
+
 @end
