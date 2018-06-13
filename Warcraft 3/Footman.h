@@ -7,10 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Unit.h"
 
-@interface Footman : NSObject
+@interface Footman : Unit
 
-@property (assign) int healthPoints;
-@property (assign) int attackPower;
+-(void) damage:(int)reduced;
+-(void) attack:(Unit *)unit withDamage:(int)damage;
 
 @end

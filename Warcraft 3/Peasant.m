@@ -7,7 +7,17 @@
 //
 
 #import "Peasant.h"
+#import "Footman.h"
 
 @implementation Peasant
+
+//- (instancetype)init
+//{
+//    self = [super init];
+//    if (self) {
+//        self.healthPoints < _footman.healthpoints;
+//    }
+//    return self;
+//}
 
 @end
