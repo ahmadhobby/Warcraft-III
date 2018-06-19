@@ -21,6 +21,7 @@
 - (int)healthPoints;
 @end
 
+
 @interface WarCarftIII_Tests_07 : XCTestCase
 
 @end

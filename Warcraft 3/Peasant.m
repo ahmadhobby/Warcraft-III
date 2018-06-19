@@ -11,13 +11,13 @@
 
 @implementation Peasant
 
-//- (instancetype)init
-//{
-//    self = [super init];
-//    if (self) {
-//        self.healthPoints < _footman.healthpoints;
-//    }
-//    return self;
-//}
+
+- (instancetype)init {
+    self = [super initWithHP:35 AP:0];
+    if (self) {
+    }
+    return self;
+    
+}
 
 @end

@@ -10,10 +10,12 @@
 #import "Footman.h"
 
 
-@interface Footman()
+@interface Footman() // Gives you an idea to what you should be adding to Footman
 - (int)healthPoints;
 - (int)attackPower;
 @end
+
+// Don't add anything here
 
 @interface WarCarftIII_Tests_01 : XCTestCase
 
@@ -36,6 +38,7 @@
 // Units that can fight, such as the Footman, have both healthPoints points to indicate their healthPoints and attack power to indicate how much damage they deal to other units
 // As such, they must start off with a certain amount of each
 
+// You can add methods as long as they don't start with Test
 
 - (void)testHasAndKnowItshealthPoints
 {
